@@ -1,0 +1,35 @@
+{
+  "name": "saucedemo-automation",
+  "version": "1.0.0",
+  "description": "Production-grade SauceDemo End-to-End Automation Testing Suite using Playwright & TypeScript, based on Sauce Labs ImageRunner architecture.",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report playwright-report",
+    "test:single": "npx playwright test",
+    "test:login": "npx playwright test tests/login.spec.ts",
+    "test:inventory": "npx playwright test tests/inventory.spec.ts",
+    "test:cart": "npx playwright test tests/cart.spec.ts",
+    "test:checkout": "npx playwright test tests/checkout.spec.ts",
+    "test:logout": "npx playwright test tests/logout.spec.ts",
+    "test:reference": "npx playwright test tests/reference-example.spec.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "saucedemo",
+    "saucelabs",
+    "automation",
+    "testing",
+    "e2e",
+    "page-object-model"
+  ],
+  "author": "Senior QA Automation Engineer",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}

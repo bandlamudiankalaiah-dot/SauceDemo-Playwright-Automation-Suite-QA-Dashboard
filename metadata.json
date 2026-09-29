@@ -1,0 +1,6 @@
+{
+  "name": "SauceDemo Playwright Automation Suite & QA Dashboard",
+  "description": "Production-grade SauceDemo End-to-End Test Automation Suite built with Playwright, TypeScript, and Page Object Model architecture based on Sauce Labs ImageRunner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
